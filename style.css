@@ -1,0 +1,66 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full width of the viewport */
+  height: 2500px; /* Maintain aspect ratio */
+  background: url("img/letter-to-santa.png") no-repeat top center;
+  background-size: cover; /* Ensures the image covers the viewport */
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 1100px;
+  left: 170px;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.second {
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+
+.third {
+  position: absolute;
+  top: 440px;
+  left: 20px;
+}
+
+.fourth {
+  position: absolute;
+  top: 740px;
+  left: 20px;
+  font-size: 30px;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #f00;
+}
+
+.img1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

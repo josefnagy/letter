@@ -7,17 +7,17 @@ html {
 }
 
 .background-image {
-  top: 0;
-  left: 0;
-  width: 100vw; /* Full width of the viewport */
-  height: 2500px; /* Maintain aspect ratio */
-  background: url("img/letter-to-santa.png") no-repeat top center;
-  background-size: cover; /* Ensures the image covers the viewport */
+  background: url("img/letter-to-santa.jpg");
+  background-size: cover; /* Scale the image to cover the entire element */
+  background-position: top left; /* Center the image */
+  background-repeat: no-repeat;
+  width: 2000px; /* Make the image's width equal to the viewport's width */
+  height: 3000px; /* Make the image's height equal to the viewport's height */
   position: relative;
 }
 
 .content {
-  position: absolute;
+  position: relative;
   top: 1100px;
   left: 170px;
   text-align: center;
